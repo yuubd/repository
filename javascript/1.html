@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <script>
+      // alert("hello w");
+    </script>
+</head>
+
+<body>
+  <!-- <input type="checkbox" value="white"/> -->
+  <!-- <input type="button" value="white" onclick="alert('hello world')"/> -->
+  <!-- when encounters onclick, execute the js code afterward -->
+  <!-- <input type="text" onfocus= "alert('focus')" onblur="alert('blur')"/>-->
+  <input type="text" id="user_input"/>
+  <input type="button" value="ShowAlert" onclick="alert(document.getElementById('user_input'))" />
+  <input type="button" value="ShowInput" onclick="alert(document.getElementById('user_input').value)" />
+  <!-- .value can bring the input value of the text into the alert message -->
+</body>
+
+</html>

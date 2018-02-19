@@ -1,0 +1,55 @@
+body.white{ background-color: white; color:black}
+body.black{ background-color: black; color:white}
+#logo {
+	width: 100px;
+}
+
+
+.containter {
+	padding-top:20px
+}
+
+/* since we are using the bootstrap, do not need own designed css anymore
+header{
+	font-family: cursive;
+	border-bottom: 1px solid gray;
+	padding: 20px;
+	font-size: 25px;
+}
+
+nav {
+	border-right: 1px solid gray;
+	width: 200px;
+	height: 400px;
+	float: left;
+	font-family: Monaco;
+}
+
+div{
+	font-family: monospace;
+}
+
+nav ol{
+	list-style: none;
+	padding: 0;
+	font-size: 15px;
+}
+
+article{
+	float:left;
+	padding: 20px;
+	width: 500px;
+	font-family: monospace;
+}
+
+article p {
+	font-size: 10px;
+	font-weight: normal;
+	/* font-weight: normal unold any bold letters  */
+
+/*
+h2 { font-size: 20px; }
+
+#control{ float: right; }
+header img{ float:right; height: 100px; }
+*/

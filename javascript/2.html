@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+   <style>
+     li{ color:black; }
+     ul li{ font-size:20px; }
+     ol li{ font-size:20px; }
+     .em{ text-decoration:underline; }
+   </style>
+</head>
+<body>
+  <ol id="target">
+    <li> html </li>
+    <li>css</li>
+    <li>javascript</li>
+  </ol>
+  <ul>
+    <li class="em">최진혁</li>
+    <li>최유빈</li>
+    <li>한이람</li>
+    <li>한이은</li>
+  </ul>
+  <input type="button" value="highlight" onclick="document.getElementById('target').className='em'" />
+  <!-- pushing the button makes <ol id="target"> to <ol id="target" class="em">
+  and that gives the em style which is the underlined highligt-->
+</body>
+</html>

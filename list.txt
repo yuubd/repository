@@ -1,0 +1,7 @@
+<li><a href="http://localhost:8080/index.php?id=1"> JavaScript란? </a></li>
+<li><a href="http://localhost:8080/index.php?id=2"> 변수와 상수 </a></li>
+<li><a href="http://localhost:8080/index.php?id=3"> 연산자 </a></li>
+<li><a href="http://localhost:8080/index.php?id=4"> 조건문 </a></li>
+<li><a> 함수 </a></li>
+<li><a> 이벤트 </a></li>
+<li><a> 객체 </a></li>
